@@ -1,0 +1,248 @@
+/*
+https://maketintsandshades.com/#e67e22
+https://coolors.co/contrast-checker/112a46-acc8e5
+https://yeun.github.io/open-color/
+https://ionic.io/ionicons
+https://caniuse.com/
+https://squoosh.app/ --image compressor
+
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line heights
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6
+Large: 1.8
+
+- Letter spacing
+-0.5px
+0.75px
+
+--- 02 COLORS
+    Black #212121   #0c0c0c
+    Blue  #00447c   #002756
+    Teal  #0b7b9e   #035b7a
+    Biege #dddace   #c6c3b6
+    White #12f3f4   #eaeaea
+
+    --- 05 SHADOWS
+
+0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+--- 06 BORDER-RADIUS
+
+Default: 9px
+Medium: 11px
+
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/* https://colorhunt.co/palette/161a3031304db6bbc4f0ece5 */
+@property --color-navy {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #161A30;
+  }
+
+  @property --color-blueblack {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #31304D;
+  }
+  @property --color-gray {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #B6BBC4;
+  }
+  @property --color-biege {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #f0ece5;
+  }
+  @property --color-frost {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #FCFBFC;
+  }
+  @property --color-lightgray {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #d2d5db;
+  }
+ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    /* 10px / 16px = 0.625 = 62.5% */
+    /* Percentage of user's browser font-size setting */
+    font-size: 62.5%;
+    overflow-x: hidden;
+  }
+  
+  body {
+    font-family: "Rubik", serif;
+    line-height: 1;
+    font-weight: 400;
+    color: var(--color-navy);
+    background-color: #fff;
+    /* Only works if there is nothing absolutely positioned in relation to body */
+    overflow-x: hidden;
+  }
+  
+
+  a{
+    text-decoration: none;
+    color:var(--color-navy);
+    font-weight: 400;
+    font-size: 1.6rem;
+  }
+
+  h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+  h3{
+    color:var(--color-navy);
+    font-weight: 400;
+    font-size: 2rem;
+  }
+  h4{
+    color:var(--color-navy);
+    font-weight: 400;
+    font-size: 1.6rem;
+  }
+
+  section{
+    padding: 1.6rem 0 4.8rem 0;
+    /* background-color: var(--color-frost); */
+  }
+
+/**************************/
+/* GENRAL REUSABLE COMPONENTS */
+/**************************/
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  margin-top: 6.4rem;
+}
+
+.left-right-tab{
+  margin: 2.4rem 2.4rem;
+}
+
+.left-margin{
+  margin-left: 4.8rem;
+}
+
+.section-heading-img{
+  height: 5.2rem;
+  opacity: .9;
+}
+
+.section-header-background-biege{
+  background-color: var(--color-biege);
+}
+
+.section-header-background-gray{
+  background-color: var(--color-gray);
+}
+
+.section-header-layout{
+  display: flex;
+  justify-content:space-between;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding:1.2rem 3.2rem;
+}
+
+.image-string-flex{
+  display: flex;
+  gap: 1.6rem;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-top: 3.2rem;
+
+  padding-left: 8rem;
+  /* margin-left: 3.2rem; */
+
+}
+
+.experience-sub-wrapper{
+  display: flex;
+  justify-content: space-between;
+  background-color: #B6BBC4; 
+  padding:.8rem 1.6rem; 
+  /* border-radius: .5rem .5rem .5rem  0; */
+}
+
+.experience-sub-wrapper h3, h4{
+  color: white;
+}
+
+.experience-sub-wrapper h4{
+  margin-top: .2rem;
+}
+
+.experience-wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.2rem; 
+}
+
+.ul-common{
+  margin: 0 10%;
+  margin-top: 2.4rem;
+  max-width: 60rem;
+}
+
+
+
+.ul-common li{
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+  list-style-type:disc;
+  line-height: 2.4rem;
+}
+
+
+.pic-wrapper{
+  margin-top: 2.4rem;
+  display: flex;
+  justify-content: space-between;
+  /* gap:2%; */
+}
+
+.pic-wrapper img{
+  max-width: 32%;
+  border-radius: .5rem;
+  /* opacity: .85; */
+  filter: grayscale(50%);
+}
+

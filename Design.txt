@@ -1,0 +1,138 @@
+1. DEFINE THE PROJECT------------------------
+
+    1. Define who the website is for
+        potential employer
+
+    2. Define what the website is for
+        My goal: to build more interest by prospective employers
+
+    3. Define target audience
+        Employers looking for a .Net Developer
+
+2. PLAN THE PROJECT------------------------
+
+    1. Gather website content(content.md)
+        images
+        wording
+
+    2. Plan out the sitemap
+        Home page with other pages
+
+    3. Define website personality
+        Based on the target audience being tech centered and to product being food
+        we will go with the Startup/Upbeat personality. Since the product is about
+        consumer well being we can add some Calm/Peaceful personality elements as well
+
+    4. Plan sections for pages(see ## Sections in content.md)
+
+3. DESIGN WEBSITE------------------------
+    
+    Design and layout must follow content
+    Sketch out ideas for section design
+
+    ## Pages
+    -Home
+    -Professional
+    -Interests
+    -Accomplishments?
+
+    Style--------------------------------
+    Minimalist/Simple: Focusses on the essential text content, using small or
+                    medium-sized sans-serif black text, lines, and few images and icons
+
+                    -like the idea of using border lines with no outside border lines to visually separate things
+
+    Colors-------------------------------
+    Black #212121   #0c0c0c
+    Blue  #00447c   #002756
+    Teal  #0b7b9e   #035b7a
+    Biege #dddace   #c6c3b6
+    White #12f3f4   #eaeaea
+
+Home---------------------------who you are and what you do
+~Professional dressed image of myself
+Name
+Software/Website Developer
+
+An experienced WPF/C# application creator with over 12 years in the field
+Interest and experience with creating websites
+
+
+*Email Contact form
+
+Professional/Skills---------------------------
+~Image working on computer
+Resume
+
+Include unrelated job experience
+
+Education---------------------------
+~Image/s of MTU
+
+B.S in Electrical Engineering Technology
+Michigan Technological University
+
+Interests---------------------------
+~Image of each?
+Playing guitar
+Recording - maybe include a few songs?
+Gardening
+
+
+Accomplishments---------------------------
+Gutted bathroom installed new flooring, bathtub, toilet, and sink on a cabinet I handbuilt
+Installed metal roof on home
+Replaced all home windows and interior/exterior trim
+
+Custom built loft beds
+
+Diagnosed furnace exhaust fan failure and repaired
+Installed wood burning fireplace
+Installed french drain around home to help resolve minor basement leaks
+Installed chain link fence around backyard
+
+
+Built many guitar effects pedals
+Built small tube amplifier(not a kit)
+Built many subwoofer boxes/installed many car stereo's
+
+
+
+
+Interests/Accomplishments---------------------------
+
+Creating Sounds
+    *some kind of recording?
+    *handbuilt tube amplifier
+    *handbuilt effects pedal
+    
+    Self taught guitar player
+    Composing and recording music- maybe include a few songs?
+
+    Built many guitar effects pedals
+    Built small tube amplifier(not a kit)
+    Built many subwoofer boxes/installed many car stereo's
+
+
+Building and Problem Solving
+    *loft bed or something being Built
+    *french drain
+
+    Gutted bathroom installed new flooring, bathtub, toilet, and sink on a cabinet I handbuilt
+    Installed metal roof on home
+    Replaced all home windows and interior/exterior trim
+    Diagnosed furnace exhaust fan failure and repaired
+    Installed wood burning fireplace
+    Installed french drain around home to help resolve minor basement leaks
+    Installed chain link fence around backyard
+    Custom built loft beds
+    Perform 99% of maintenance/repair on autos
+
+
+Investing in Myself
+    Learning new coding skills. I make it a habit to learn/practice new software skills every day. The last couple of years I have been especially interested
+    in building websites.
+
+    Exercising at the YMCA 5 days a week. I enjoy strenuous 45 to 55 minute sessions with a mix of weight lifting and cardio work.
+
+    Constantly analyzing the world around me to gain understanding and give myself perspective. 

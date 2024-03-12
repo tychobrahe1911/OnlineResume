@@ -124,7 +124,13 @@
 }
 
 .hero-text-layout p{
-  font-size: 2rem;
+  font-size: 2.4rem;
+}
+
+.hero-title{
+  line-height: 3.2rem;
+  font-family: "Roboto Mono";
+  font-weight: 500;
 }
 
 .hero-mtu-layout{

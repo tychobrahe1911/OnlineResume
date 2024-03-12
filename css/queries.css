@@ -44,6 +44,11 @@
   .skills-ul li:last-child{
     margin-bottom: 0;
   }
+
+  .hero-title{
+    font-size: 2rem !important;
+    line-height: 2.4rem;
+  }
 }
 
 

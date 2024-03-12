@@ -131,7 +131,6 @@ Medium: 11px
 
   section{
     padding: 1.6rem 0 4.8rem 0;
-    /* background-color: var(--color-frost); */
   }
 
 /**************************/
@@ -180,7 +179,6 @@ Medium: 11px
 .image-string-flex{
   display: flex;
   gap: 1.6rem;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -191,8 +189,6 @@ Medium: 11px
   margin-top: 3.2rem;
 
   padding-left: 8rem;
-  /* margin-left: 3.2rem; */
-
 }
 
 .experience-sub-wrapper{
@@ -200,7 +196,6 @@ Medium: 11px
   justify-content: space-between;
   background-color: #B6BBC4; 
   padding:.8rem 1.6rem; 
-  /* border-radius: .5rem .5rem .5rem  0; */
 }
 
 .experience-sub-wrapper h3, h4{
@@ -238,13 +233,11 @@ Medium: 11px
   margin-top: 2.4rem;
   display: flex;
   justify-content: space-between;
-  /* gap:2%; */
 }
 
 .pic-wrapper img{
   max-width: 32%;
   border-radius: .5rem;
-  /* opacity: .85; */
   filter: grayscale(50%);
 }
 

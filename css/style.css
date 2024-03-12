@@ -8,11 +8,7 @@
     align-items: center;
     background-color: var(--color-gray);
     border-bottom: 1px solid var(--color-navy);
- 
-
-    /* Because we want header to be sticky later */
     height: 8rem;
-    /* padding: 0 4.8rem; */
     position: relative;
   }
 
@@ -30,7 +26,6 @@
 .main-nav-list {
     list-style: none;
     display: flex;
-    /* align-items: center; */
     gap: 4.8rem;
   }
 
@@ -59,25 +54,6 @@
     color: #fff;
     transform: scale(1.05);
   }
-  
-  /* .main-nav-link:hover,
-  .main-nav-link:active {
-    color: #fff;
-    transform: scale(1.05);
-  } */
-  
-  /* .main-nav-link.nav-cta:link,
-  .main-nav-link.nav-cta:visited {
-    padding: 1.2rem 2.4rem;
-    border-radius: 9px;
-    color: #fff;
-    background-color: #e67e22;
-  }
-  
-  .main-nav-link.nav-cta:hover,
-  .main-nav-link.nav-cta:active {
-    background-color: #cf711f;
-  } */
 
   /* MOBILE */
 .main-nav-list-icon{
@@ -96,10 +72,7 @@
   filter: brightness(0) invert(1);
   transform: scale(1.05);
 }
-/* .main-nav-link-icon:hover img, .main-nav-link-icon:active img{
-  filter: brightness(0) invert(1);
-  transform: scale(1.05);
-} */
+
 /**************************/
 /* HERO */
 /**************************/
@@ -160,24 +133,7 @@
 /* PROFESSIONAL */
 /**************************/
 .section-pro{
-/* background-color: var(--color-biege); */
 }
-
-/* .section-pro ul{
-  max-width: 60rem;
-  margin: 0 10%;
-  margin-top: 2.4rem;
-} */
-
-/* .section-pro li{
-  font-size: 1.6rem;
-  font-weight: 400;
-  margin-bottom: 1.2rem;
-  list-style-type:disc;
-  line-height: 2.4rem;
-} */
-
-
 
 .section-pro a{
 color: var(--color-navy);
@@ -213,7 +169,6 @@ color: var(--color-navy);
 .logo-background img:last-child
 {
   max-width: 18rem;
-  /* border-radius: .5rem; */
 }
 
 .experience-wrapper{
@@ -230,20 +185,15 @@ color: var(--color-navy);
 
 .skills-wrapper{
   display: flex;
-  /* flex-wrap: wrap; */
   margin:2.4rem 10% 1.2rem 10%;
 }
 
 .skills-ul{
-  /* margin: 0 !important;
-  margin-top: 2.4rem; */
-  /* margin:0 !important; */
   width: 25%;
 }
 
 .skills-ul li{
   list-style-type:none;
-  /* width: 186rem; */
   margin-bottom: .8rem;
 
   font-size: 1.6rem;
@@ -265,15 +215,13 @@ color: var(--color-navy);
 /* ACCOMPLISHMENTS */
 /**************************/
 .section-acc{
-  /* background-color: var(--color-biege); */
 }
 
 /**************************/
 /* CONTACT */
 /**************************/
 .section-contact{
-    /* background-color: var(--color-gray); */
-    /* padding-bottom: 3.2rem; */
+
 }
 
 .section-contact .name-pre-logo{

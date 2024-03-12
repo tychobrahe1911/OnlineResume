@@ -7,15 +7,15 @@
 //   headerEl.classList.toggle("nav-open");
 // });
 
-
-//https://css-tricks.com/how-to-safely-share-your-email-address-on-a-website/
-var encEmail = "cnNneWRlQG10dS5lZHU=";
-const form = document.getElementById("contactEmail");
-
-form.setAttribute("href", "mailto:".concat(atob(encEmail)));
-// if(form!=null)
-// {
-//     // form.setAttribute("href", "mailto: rsgyde@mtu.edu");
-//     System.out.println("20 is greater than 18");
-// }
+function decode(a) {
+    return a.replace(/[a-zA-Z]/g, function(c){
+    return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+    })
+    }; 
+    function openMailer(element) {
+    var y = decode("znvygb:eftlqr@zgh.rqh");
+    element.setAttribute("href", y);
+    element.setAttribute("onclick", "");
+    // element.firstChild.nodeValue = "Open email software";
+    };
     

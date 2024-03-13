@@ -67,9 +67,9 @@
 
   .header{
     flex-direction: column;
-    height: 16rem;
-    padding-top: 2.4rem;
-    padding-bottom: 2.4rem;
+    height: 14rem;
+    /* padding-top: 2.4rem;
+    padding-bottom: 2.4rem; */
   }
 
   .footer{
@@ -87,6 +87,7 @@
 
   .hero-layout{
     flex-direction: column;
+    gap:4.8rem;
       }
     
       .hero-layout img{
@@ -103,6 +104,11 @@
     
     .hero-mtu-layout{
       margin-top: 3.2rem;
+    }
+
+    .hero-text-layout{
+      padding-left: 0;
+      border:none;
     }
 }
 

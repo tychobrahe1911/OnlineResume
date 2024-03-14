@@ -17,6 +17,7 @@
     justify-content: center;
     border-top: 1px solid var(--color-navy);
     border-bottom: 0 solid var(--color-navy);
+    height: 5rem;
   }
 
 /**************************/
@@ -87,7 +88,7 @@
 
 .hero-layout img{
   width: 50%;
-  border-radius: 1rem 0 0 1rem;
+  border-radius: .6rem 0 0 .6rem;
 }
 
 .hero-text-layout{
@@ -97,7 +98,7 @@
 
   border: 1px solid var(--color-gray);
   border-left: 0; 
-  border-radius: 0 1rem 1rem 0;
+  border-radius: 0 .6rem .6rem 0;
   padding-left: 3rem;
 }
 
@@ -149,14 +150,14 @@ color: var(--color-navy);
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-navy);
+  background-color:  rgba(22,26,48, .9);
   padding: .5rem;
   border-radius: .5rem;
   margin-top: 3.2rem;
   margin-bottom: -1rem;
   margin-left: 8%;
   height: 6rem;
-  width: 26rem;
+  width: 22rem;
   transition: all .3s;
 }
 
@@ -209,6 +210,25 @@ color: var(--color-navy);
 .skills-ul li:last-child{
   margin-bottom: 0;
 }
+
+.sample-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.sample-wrapper span{
+  color: white;
+}
+
+.sample-wrapper img{
+  height: 3rem;
+}
+
+.sample-margin{
+  margin-bottom: 1.6rem;
+}
 /**************************/
 /* INRTERESTS */
 /**************************/
@@ -220,6 +240,11 @@ color: var(--color-navy);
 /* ACCOMPLISHMENTS */
 /**************************/
 .section-acc{
+}
+
+.audio-player{
+  margin-top: 2.4rem;
+  margin-left: 8%;
 }
 
 /**************************/
@@ -258,4 +283,19 @@ color: var(--color-navy);
 
 .section-contact h4{
   color: var(--color-navy);
+}
+
+/**************************/
+/* SAMPLE PAGE */
+/**************************/
+.picture-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 3rem 3rem 2rem 3rem;
+}
+
+.sample-p{
+  font-size: 1.6rem;
+  line-height: 2.2rem;
 }

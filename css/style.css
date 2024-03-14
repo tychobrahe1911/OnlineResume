@@ -100,6 +100,7 @@
   border-left: 0; 
   border-radius: 0 .6rem .6rem 0;
   padding-left: 3rem;
+  background-color: var(--color-frost);
 }
 
 .hero-text-layout p{
@@ -145,6 +146,36 @@
 color: var(--color-navy);
 }
 
+.link-as-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:  rgba(22,26,48, .9);
+  /* padding: .5rem; */
+  border-radius: .5rem;
+  margin-top: 3.2rem;
+  margin-bottom: -1rem;
+  margin-left: 8%;
+  height: 5.8rem;
+  width: 22rem;
+  transition: all .1s;
+}
+
+.link-as-button:active,
+.link-as-button:hover{
+  background-color: #000;
+  border-radius: .6rem;
+  transform: scale(1.03);
+}
+
+.link-as-button img{
+  max-width: 20rem;
+}
+
+.link-as-button img:last-child
+{
+  max-width: 18rem;
+}
 
 .logo-background{
   display: flex;
@@ -271,14 +302,20 @@ color: var(--color-navy);
 }
 
 .section-contact-email{
-  transition: all .1s;
+  /* transition: all .1s; */
+  height: 3rem;
+  width: 10rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  color: white;
 }
 
 .section-contact-email:hover,
 .section-contact-email:active
 {
-  color: #000;
-  transform: scale(1.05);
+  /* color: #000;
+  transform: scale(1.05); */
 }
 
 .section-contact h4{

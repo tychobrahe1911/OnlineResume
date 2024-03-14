@@ -207,7 +207,7 @@ Medium: 11px
 .experience-sub-wrapper{
   display: flex;
   justify-content: space-between;
-  background-color: #B6BBC4; 
+  background-color: var(--color-gray); 
   padding:.8rem 1.6rem; 
 }
 

@@ -242,6 +242,23 @@ color: var(--color-navy);
   margin-bottom: 0;
 }
 
+
+.skills-ul-construction{
+  width: 100%;
+}
+
+.skills-ul-construction li{
+  margin-bottom: .8rem;
+
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.skills-ul-construction li:last-child{
+  margin-bottom: 0;
+}
+
 .sample-wrapper{
   display: flex;
   align-items: center;

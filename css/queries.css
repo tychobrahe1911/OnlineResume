@@ -44,6 +44,23 @@
     margin-bottom: 0;
   }
 
+
+  .skills-ul-construction{
+    margin-bottom: 2.4rem;
+  }
+
+  .skills-ul-construction:last-child{
+    margin-bottom: 0;
+  }
+
+  .skills-ul-construction li{
+    margin-bottom: .4rem;
+  }
+
+  .skills-ul-construction li:last-child{
+    margin-bottom: 0;
+  }
+
   .hero-title{
     font-size: 2rem !important;
     line-height: 2.4rem;

@@ -62,16 +62,26 @@ Medium: 11px
     inherits: false;
     initial-value: #31304D;
   }
-  @property --color-gray {
+  /* @property --color-gray {
     syntax: "<color>";
     inherits: false;
     initial-value: #B6BBC4;
+  } */
+  @property --color-gray {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #96adcf;
   }
   @property --color-biege {
     syntax: "<color>";
     inherits: false;
-    initial-value: #f0ece5;
+    initial-value: #B6BBC4;
   }
+  /* @property --color-biege {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #f0ece5;
+  } */
   @property --color-frost {
     syntax: "<color>";
     inherits: false;
@@ -173,8 +183,8 @@ Medium: 11px
 
 .section-header-background-biege{
   background-color: var(--color-biege);
-  border-top: 1px solid var(--color-gray);
-  border-bottom: 1px solid var(--color-gray);
+  border-top: 3px solid var(--color-gray);
+  border-bottom: 3px solid var(--color-gray);
 }
 
 .section-header-background-gray{

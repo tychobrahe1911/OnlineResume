@@ -78,14 +78,20 @@
 
       .hero-mtu-layout{
         margin-top: 3.2rem;
-
       }
   
       .hero-text-layout{
-        padding-left: 0;
+        justify-content: space-between;
+        padding: 2rem;
         border:none;
         align-items: center;
         background-color:white;
+        border-radius: .6rem;
+        height: 45rem;
+      }
+
+      .hero-button{
+        margin-top: 5rem;
       }
 }
 

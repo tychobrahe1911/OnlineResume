@@ -70,7 +70,8 @@ Medium: 11px
   @property --color-gray {
     syntax: "<color>";
     inherits: false;
-    initial-value: #96adcf;
+    initial-value: #92a8d1;
+    /* initial-value: #96adcf; */
   }
   @property --color-biege {
     syntax: "<color>";
@@ -92,7 +93,11 @@ Medium: 11px
     inherits: false;
     initial-value: #d2d5db;
   }
- 
+  @property --color-pastelRed {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #FF645C;
+  }
 * {
     padding: 0;
     margin: 0;
